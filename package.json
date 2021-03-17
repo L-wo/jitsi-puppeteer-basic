@@ -1,0 +1,14 @@
+{
+  "name": "jitsi-puppeteer-basic",
+  "version": "0.0.1",
+  "description": "A basic version of my Jitsi Puppeteer solution",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "L-Wo",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
