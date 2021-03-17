@@ -3,19 +3,27 @@ A basic version of my Jitsi Puppeteer implementation
 
 *THIS CODE IS UNTESTED AND HAS BEEN PRODUCED FOR DEMO PURPOSES ONLY. IT PROBABLY WILL NOT WORK STRAIGHT OUT OF THE BOX*
 
+## Installation
 
+These are the things I installed on my server to make it work. You probably dont need all these:
 
-These are the things I installed on my server to make it work:
-
+    sudo apt update
     sudo apt install npm chromium-browser ffmpeg -y
 
-    sudo apt install gconf-service libasound2 libatk1.0-0 libatk-bridge2.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils
+    sudo apt install gconf-service libasound2 libatk1.0-0 libatk-bridge2.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils libnss3-dev libgdk-pixbuf2.0-dev libgtk-3-dev libxss-dev libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgtk-3-0 libgbm-dev libnss3-dev libxss-dev
 
 
 Then, run this within the directory of the package:
 
     npm install
 
+##Usage
+
+To run the code, fill in the blanks within app.js and then use
+
+    npm run start
+
+You will not be able to use the bots on a secure domain server, or to join a server that uses waiting rooms or has a password on a room. I have found ways to enable these behaviours but that is beyond the scope of this demonstration.
 
 To convert videos in MP4 format to Y4M and WAV:
   

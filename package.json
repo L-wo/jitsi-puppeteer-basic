@@ -8,6 +8,7 @@
   },
   "author": "L-Wo",
   "license": "ISC",
+  "repository": "https://github.com/L-wo/jitsi-puppeteer-basic",
   "dependencies": {
     "puppeteer": "^8.0.0"
   }

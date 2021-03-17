@@ -1,10 +1,10 @@
 //THIS CODE IS UNTESTED AND HAS BEEN PRODUCED FOR ILLUSTRATIVE PURPOSES ONLY
 
 const puppeteer = require('puppeteer');
-const jitsiBaseUrl = "https://meet.jit.si" //e.g. https
+const jitsiBaseUrl = "https://MY.JITSI.SERVER" 
 const conferenceRoomName = "mytestroom987" //e.g. room1
 const displayName = "Bot Demo"
-const ttl = 30000; //How long before we kill off the video - otherwise it will loop
+const ttl = 20000; //How long (ms) before we kill off the video - otherwise it will loop
 const videoFile = "/home/videos/test.y4m" //See readme for details on Y4M conversions
 const audioFile = "/home/videos/test.wav" //Must be a .wav. Not sure of other constraints
 
