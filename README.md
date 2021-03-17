@@ -17,7 +17,7 @@ Then, run this within the directory of the package:
 
     npm install
 
-##Usage
+## Usage
 
 To run the code, fill in the blanks within app.js and then use
 
@@ -25,10 +25,14 @@ To run the code, fill in the blanks within app.js and then use
 
 You will not be able to use the bots on a secure domain server, or to join a server that uses waiting rooms or has a password on a room. I have found ways to enable these behaviours but that is beyond the scope of this demonstration.
 
+## Video Conversion
+
 To convert videos in MP4 format to Y4M and WAV:
   
     ffmpeg -i "test.mp4" -pix_fmt yuv420p -vf scale=320:180 -r 15 -map "0:v" "test.y4m"
     ffmpeg -i "test.mp4" -af asetrate=48000,aresample=48000 "test.wav"
+
+Results varied depending on input MP4, but these parameters will convert anything downloaded from Vimeo nicely.
 
 ===========
 
