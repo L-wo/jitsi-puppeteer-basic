@@ -2,9 +2,9 @@
   "name": "jitsi-puppeteer-basic",
   "version": "0.0.1",
   "description": "A basic version of my Jitsi Puppeteer solution",
-  "main": "demo.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "L-Wo",
   "license": "ISC",
