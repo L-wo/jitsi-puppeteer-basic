@@ -16,8 +16,6 @@ const meetArgs = [
     'config.constraints.video.height.min=120',
     // Turn off some bits of audio processing and unmute
     'config.disableAP=true', 'config.disableHPF=true&config.diableNS=true&config.disableAGC=true', 'config.startWithAudioMuted=false',
-    // Don't use simulcast to save resources on the sender (our) side
-    'config.disableSimulcast=true',
     // No need to process audio levels
     'config.disableAudioLevels=true',
     // Disable P2P mode
